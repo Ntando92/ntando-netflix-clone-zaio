@@ -120,10 +120,14 @@ body{
         padding: 3px 17px;
         color: white;
         text-decoration: none;
-        background-color: #e50909;
+        background-color: #e50914;
         border-radius: 5px;
         border: none;
         margin-right: 30px;
+    }
+
+    .navbar > button:hover {
+        cursor:pointer;
     }
 
     .banner-container {
@@ -160,12 +164,15 @@ body{
         border: none;
         min-height: 60px;
         padding: 0 26px;
-        margin-left: 5px;
+        margin-left: 12px;
         border-radius: 5px;
     }
+
+    .get-started-form button:hover {
+        cursor:pointer;
+    }
 /* The following code at the bottom is span, 
-here we were experimenting with span. 
-Span is not a block element it is inline  */
+here we were experimenting with span.   */
     
     /*.test {
         font-family: 'Courier New', Courier, monospace;
@@ -268,7 +275,7 @@ Span is not a block element it is inline  */
     .footer ul li:hover, .questions-title:hover {
        text-decoration: underline;
        cursor: pointer;
-       color:aqua;
+       color:#e0192a;
     }
 
     .language {
@@ -284,9 +291,6 @@ Span is not a block element it is inline  */
         border-radius: 3px;
     }
 
-    .language option {
-
-    }
 
     .language select {
         padding: 10px;
@@ -296,8 +300,4 @@ Span is not a block element it is inline  */
         color: #999999;
         background: url(./icons8-triangle-18.png) no-repeat 100%;
         
-    }
-
-    .test {
-        display: none;
     }
