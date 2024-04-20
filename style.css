@@ -102,15 +102,14 @@ body{
 
     */
     
-    .navbar{
+    .navbar {
         height: 20%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         height: 45px;
         margin: 0 45px;
-        padding-top: 45px;
-        
+        padding-top: 45px;  
     }
 
     .navbar > img {
@@ -126,10 +125,10 @@ body{
     }
 
     .banner-container {
-        color: white;
+        color: rgb(255, 255, 255);
         display:flex;
         flex-direction: column;
-        align-items:center;
+        align-items: center;
         justify-content: center;
         height: 600px;
         text-align: center;
@@ -149,7 +148,6 @@ body{
         opacity: 55%;
         margin-right: 5px;
         color: white;
-        
     }
 
     .get-started-form button {
@@ -217,8 +215,7 @@ Span is not a block element it is inline  */
     .fixed {
         position: fixed;
         top: 0;
-        right: 0;
-       
+        right: 0; 
     }
 
     .sticky {
@@ -269,6 +266,7 @@ Span is not a block element it is inline  */
     .footer ul li:hover, .questions-title:hover {
        text-decoration: underline;
        cursor: pointer;
+       color:aqua;
     }
 
     .language {
@@ -282,6 +280,10 @@ Span is not a block element it is inline  */
         padding: 0 10px;
         margin-top: 30px;
         border-radius: 3px;
+    }
+
+    .language option {
+
     }
 
     .language select {
