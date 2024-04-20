@@ -116,12 +116,13 @@ body{
         height: 100px;
     }
 
-    .navbar > a {
+    .navbar > button {
         padding: 3px 17px;
         color: white;
         text-decoration: none;
-        background-color: #e50914;
+        background-color: #e50909;
         border-radius: 0.1875rem;
+        margin-left: 900px;
     }
 
     .banner-container {
